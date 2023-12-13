@@ -1,0 +1,446 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e9e8e8;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    
+}
+
+nav {
+    background-color: #000000;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    z-index: 999999999;
+}
+a {
+    color: rgb(255, 255, 255);
+}
+section {   
+    padding: 1rem;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+    font-size: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.b1 {
+    display: inline-block;
+    padding: 15px 56px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #fff;
+    border: 2px solid #ffffff;
+    position: relative;
+    left: 1122px;
+    top: -97px;
+}
+
+.logo {
+    width: 105px;
+    height: 81px;
+    top: 8px;
+}
+
+input {
+    padding: 10px 20px;
+    font-size: 35px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    width: 35%;
+    position:relative;
+    left: 39px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #ff0000;
+    box-shadow: 0 0 5px rgba(17, 0, 255, 0.5);
+}
+
+input::placeholder {
+    color: #000000;
+}
+
+.material-symbols-outlined {
+    color: #000000;
+}
+
+.container--link {
+    display: flex;
+    gap: 50px;
+
+}
+
+
+.p{
+
+    display: flex;
+    justify-content: center;
+}
+
+
+p.lançamento{
+    justify-content: center;
+    display: flex;
+}
+
+ .lupa{
+    position: relative;
+    top: 50%;
+    left: -106;
+    bottom: 0px;
+    height: 23px;
+    right: 36px;
+    top: 0px;
+    margin: 34px;
+    font: 24px
+} 
+
+.ad1 {
+    width: 1500px;
+}
+
+.mi1 {
+    width: 1500px;
+    height: 100%;
+
+}
+
+.ol1 {
+    width: 1500px;
+    height: 100%;
+}
+
+.ni1 {
+    width: 1500px;
+    height:100%;
+}
+
+.un1 {
+    width: 1500px;
+    height: 100%;
+}
+
+.img--link {
+    width: 1500px;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    bottom: 21px;
+}
+
+.card {
+   border: 1px solid rgb(0, 0, 0);
+   box-shadow: 5px 5px 15px black;
+   flex-direction: column;
+   align-items: center;
+   gap: 0.93rem;
+   width: 300px;
+}
+
+.card > img {
+    width: 100%;
+    height: 17.5rem;
+    
+}
+
+.conteudo--card {
+    display: flex;
+    gap: 20px;
+    padding: 0px 15px 10px 15px;
+    align-items: center;
+}
+
+.container--img {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.cortado {
+    color: #686868;
+    text-decoration: line-through;
+    padding-left: 10px;
+}
+
+.preco {
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.b2 {
+    display: inline-block;
+    padding: 15px 56px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #000000;
+    position: relative;
+    left: 57px;
+    top: -17px;
+    text-transform: uppercase;
+
+}
+
+button:active {
+    color: rgb(0, 0, 0);
+    transition: 0   ;
+}
+
+button:hover {
+    transition: 1s;
+    background-color: #ffffff;
+    color: black;
+}
+
+.b3 {
+    display: inline-block;
+    padding: 15px 56px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #000000;
+    position: relative;
+    left: 57px;
+    top: -17px;
+    text-transform: uppercase;
+}
+
+.b4 {
+    display: inline-block;
+    padding: 15px 56px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #000000;
+    position: relative;
+    left: 57px;
+    top: -17px;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 49px;
+}
+
+.card {
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px 15px black;
+    width: 300px;
+    
+ }
+ 
+ .card > img {
+     width: 100%;
+     height: 17.5rem;
+     
+ }
+ 
+ .conteudo--card {
+     display: flex;
+     gap: 20px;
+     padding: 0px 15px 10px 15px;
+     align-items: center;
+ }
+ 
+ .container--img {
+     display: flex;
+     justify-content: space-between;
+     
+ }
+
+.material-symbols-outlined {
+    color: rgb(255, 255, 255);
+}
+.material-symbols-outlined:hover {
+    font-variation-settings:
+    'FILL' 1;
+    color: #ff0000;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.geral {
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 7px 5px 15px rgb(0, 0, 0);
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+    flex-wrap: wrap;
+}
+.geral > img {
+    width: 99%;
+    height: 200px;
+    
+}
+
+.conteudo--geral {
+    display: flex;
+    gap: 20px;
+    padding: 0px 15px 10px 15px;
+    align-items: center;
+}
+.container--geral {
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    flex-wrap: wrap;
+}
+
+p {
+    font-size: 13px;
+    color: #525252  ;
+    padding-left: 9px;
+}
+
+.a4 {
+    width: 99%;
+    height: 200px;
+    
+}
+
+.T1 {
+    padding-left: 10px;
+    color: #000000;
+}
+
+.T2 {
+    padding-left: 10px;
+    color: #000000;
+    font-size: 20px;
+}
+
+.T3 {
+    padding-left: 20px;
+    color: #000000;
+    font-size: 20px;
+}
+
+.img--Tirinha {
+    padding-left: 20px;
+}
+
+.container--img2 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 850px;
+}
+
+.container--suporte {
+    flex-direction: row;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+@media(max-width: 425px) {
+.ad1{
+    height: 700px;
+    width: 425px;
+   
+}
+.mi1{
+    width: 425px;
+    height: 700px;
+    object-fit: cover;
+}
+.ol1{
+    width: 500px;
+    height: 600px;
+  
+}
+.ni1{
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+}
+.un1{
+width: 500px;
+height: 700px;
+object-fit: cover;
+}
+.b4{
+    position: relative;
+    left: 0px;
+    padding: 10px 10px;
+    display: block;
+}
+.b3 {
+    position: relative;
+    left: 0px;
+    padding: 10px 10px;
+    display: block;
+}
+}
+.card {
+    padding: 10px 5px;
+    position: relative;
+    left: 10px;
+}
+
+h3 {
+    padding-left: 9px;
+}
+
+
+
+
